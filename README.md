@@ -12,16 +12,7 @@ A single-page React chat app with likes, emoji, @mentions and optional real-time
   - Socket.IO server (Express): messages and likes are broadcast to every open tab/browser. If the server is off, the app still works locally.
 
 ## Run
-```bash
-npm run install:all
-npm run dev
-```
-- Client: http://localhost:5173
-- Server: http://localhost:4000
-
-Client only (no sockets): `cd client && npm install && npm run dev`
-
-Open two browser tabs to see messages and likes sync.
+chartbot-og5t8mhnq-phanith1.vercel.app
 
 ## Structure
 ```
@@ -29,4 +20,8 @@ client/   React (Vite) UI
 server/   Express + Socket.IO
 ```
 Set `VITE_SOCKET_URL` in `client/.env` to point at a deployed server.
+
+
+<img width="1037" height="667" alt="Image" src="https://github.com/user-attachments/assets/158fc5ea-2661-486b-a929-0e8c108917c0" />
+<img width="1091" height="517" alt="Image" src="https://github.com/user-attachments/assets/59f584b0-a14d-4bc0-bc10-772a743c97ba" />
 
